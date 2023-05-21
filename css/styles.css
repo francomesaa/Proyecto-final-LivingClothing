@@ -19,13 +19,15 @@ a{
 }
 
 .header-principal{
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgba(246, 243, 243, 0.861);
+    height: 15vh;
 }
 
 .logo-principal{
     width: 150px;
-    height: 80px;
+    height: 85px;
+    margin-right: 400px;
 }
 
 .nav-bar{
@@ -69,11 +71,11 @@ a{
 
 .card{
     width: 250px;
-    height: 200px;
 }
 
 .img-card{
     width: 200px;
+    height: 260px;
 }
 
 .primer-footer{
@@ -108,6 +110,11 @@ a{
 .lista-padre{
     padding: 0px;
 }
+
+.lista-padre img{
+    width: 17px;
+    height: 15px;
+}
 .anchor-footer{
     margin: 0px;
     padding: 0px;
@@ -131,11 +138,20 @@ a{
 }
 
 .btn-boton{
-    background-color: black;
-    color: white;
-    padding: 10px;
+    /* display: none; */
+    background-color: rgb(203, 223, 216);
+    color: rgb(82, 77, 77);
+    padding: 8px;
     font-weight: bold;
     border-radius: 15px;
+    margin-bottom: 15px;
+    /* border: 1px solid black; */
+    border-width: 0px;
+}
+
+.btn-boton:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 .ayuda-header{
